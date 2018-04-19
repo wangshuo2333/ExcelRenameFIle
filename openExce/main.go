@@ -19,6 +19,7 @@ func main() {
 	} else {
 		filePre, _ = os.Getwd()
 	}
+	filePre = filePre + "/"
 	xlFile, err := xlsx.OpenFile(filePre + "file.xlsx")
 	CheckErr(err)
 	oldPathName := ""

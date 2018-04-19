@@ -41,7 +41,7 @@ func PrintFilesName(path string) {
 		row.SetHeightCM(1)
 		cell := row.AddCell()
 		cell.Value = name
-		err1 := file.Save("file.xlsx")
+		err1 := file.Save(fullPath + "/file.xlsx")
 		CheckErr(err1)
 		return nil
 	})

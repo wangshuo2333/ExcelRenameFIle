@@ -1,1 +1,5 @@
 github.com/*
+test/*
+uploadFileToQiNiu/*
+.DS_Store
+qiniupkg.com/*
